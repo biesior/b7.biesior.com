@@ -12,6 +12,15 @@
 		},
 		"sort-packages": true
 	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "LocalExtensionRepository/*",
+			"options": {
+				"symlink": true
+			}
+		}
+	],
 	"require": {
 		"helhum/typo3-console": "^7.0.2",
 		"typo3/cms-backend": "^11.5.0",

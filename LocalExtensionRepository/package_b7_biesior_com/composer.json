@@ -8,15 +8,6 @@
             "role": "Developer"
         }
     ],
-	"repositories": [
-		{
-			"type": "path",
-			"url": "LocalExtensionRepository/*",
-			"options": {
-				"symlink": true
-			}
-		}
-	],
     "license": "GPL-2.0-or-later",
     "require": {
         "typo3/cms-core": "^10.4"
