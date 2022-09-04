@@ -1,0 +1,42 @@
+# Default PAGE object:
+config.contentObjectExceptionHandler = 0
+
+config {
+  pageTitleFirst = 1
+  pageTitleSeparator = |
+  pageTitleSeparator.noTrimWrap = | | |
+}
+
+
+page = PAGE
+
+page {
+  meta {
+    viewport = initial-scale=1, maximum-scale=1
+  }
+
+  5 = TEXT
+  5.value = B7 DeadEnd from TS template, nothing more to see here, bye...
+
+  10 = FLUIDTEMPLATE
+  10 {
+    file = EXT:package_b7_biesior_com/Resources/Private/Templates/Common.html
+    layoutRootPaths.10 = EXT:package_b7_biesior_com/Resources/Private/Layouts
+    partialRootPaths.10 = EXT:package_b7_biesior_com/Resources/Private/Partials
+    templateRootPaths.10 = EXT:package_b7_biesior_com/Resources/Private/Templates
+
+    variables {
+      contentGet < styles.content.get
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

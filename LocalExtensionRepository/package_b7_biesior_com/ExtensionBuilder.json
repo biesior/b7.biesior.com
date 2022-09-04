@@ -1,0 +1,40 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Package with templates an TS for B7 DeadEnd",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 10.4.0-10.4.99\n",
+            "disableLocalization": true,
+            "disableVersioning": true,
+            "generateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "10.4.0-10.4.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "package_b7_biesior_com",
+        "name": "Package for B7 DeadEnd instance",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "biesior@gmail.com",
+                "name": "Marcus Biesioroff",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Biesior"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/html\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2022-09-04 03:01",
+        "extension_builder_version": "9.11.0",
+        "be_user": "Marcus Biesioroff (1)"
+    }
+}
