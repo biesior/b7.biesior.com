@@ -15,8 +15,8 @@ page {
     viewport = initial-scale=1, maximum-scale=1
   }
 
-  5 = TEXT
-  5.value = B7 DeadEnd from TS template, nothing more to see here, bye...
+#  5 = TEXT
+#  5.value = B7 DeadEnd from TS template, nothing more to see here, bye...
 
   10 = FLUIDTEMPLATE
   10 {
