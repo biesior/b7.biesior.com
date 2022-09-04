@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e38d3aed3f17f9ee095a3ffe43711bd",
+    "content-hash": "e23207f97f94a4189c6b3f1b63321b47",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -59,6 +59,61 @@
                 "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.7"
             },
             "time": "2022-03-14T02:02:36+00:00"
+        },
+        {
+            "name": "biesior/package-b7-biesior-com",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "LocalExtensionRepository/package_b7_biesior_com",
+                "reference": "a4e02bba18927f19277a97ec3522197673dc861f"
+            },
+            "require": {
+                "typo3/cms-core": "^10.0 || ^11.0"
+            },
+            "replace": {
+                "typo3-ter/package-b7-biesior-com": "self.version"
+            },
+            "require-dev": {
+                "typo3/testing-framework": "^6.8"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/public",
+                    "extension-key": "package_b7_biesior_com"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Biesior\\PackageB7BiesiorCom\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Biesior\\PackageB7BiesiorCom\\Tests\\": "Tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Biesioroff",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package with templates and TS for B7 DeadEnd",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "christian-riesen/base32",
@@ -6961,7 +7016,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "biesior/package-b7-biesior-com": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
