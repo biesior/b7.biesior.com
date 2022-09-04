@@ -24,6 +24,7 @@
 	"require": {
 		"biesior/package-b7-biesior-com": "@dev",
 		"helhum/typo3-console": "^7.0.2",
+		"lochmueller/sourceopt": "^4.0",
 		"typo3/cms-backend": "^11.5.0",
 		"typo3/cms-belog": "^11.5.0",
 		"typo3/cms-beuser": "^11.5.0",
